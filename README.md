@@ -274,7 +274,7 @@ Add to your Claude Desktop MCP configuration:
   "mcpServers": {
     "sec-edgar": {
       "command": "npx",
-      "args": ["@uh-joan/sec-mcp-server"]
+      "args": ["@openpharma-org/sec-mcp"]
     }
   }
 }
@@ -299,16 +299,16 @@ Add to your Cursor MCP settings (`mcp.json`):
 
 ```bash
 # Global installation
-npm install -g @uh-joan/sec-mcp-server
+npm install -g @openpharma-org/sec-mcp
 
 # Local installation
-npm install @uh-joan/sec-mcp-server
+npm install @openpharma-org/sec-mcp
 ```
 
 ### From Source
 
 ```bash
-git clone https://github.com/uh-joan/sec-mcp-server.git
+git clone https://github.com/openpharma-org/sec-mcp.git
 cd sec-mcp-server
 npm install
 npm run build
@@ -501,7 +501,6 @@ node -e "const {buildFactTable} = require('./src/edgar-api.js'); buildFactTable(
 4. **Use specific accession numbers** to avoid submission lookups
 5. **Batch similar requests** to respect rate limits
 
-### Performance Monitoring
 
 ```javascript
 // Built-in performance tracking
@@ -523,7 +522,7 @@ console.timeEnd('fact-table-build');
 ### Development Setup
 
 ```bash
-git clone https://github.com/uh-joan/sec-mcp-server.git
+git clone https://github.com/openpharma-org/sec-mcp.git
 cd sec-mcp-server
 npm install
 npm run build
@@ -579,9 +578,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support & Community
 
-- 🐛 **Issues**: [GitHub Issues](https://github.com/uh-joan/sec-mcp-server/issues)
-- 📖 **Documentation**: [GitHub Wiki](https://github.com/uh-joan/sec-mcp-server/wiki)
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/uh-joan/sec-mcp-server/discussions)
+- 🐛 **Issues**: [GitHub Issues](https://github.com/openpharma-org/sec-mcp/issues)
+- 📖 **Documentation**: [GitHub Wiki](https://github.com/openpharma-org/sec-mcp/wiki)
+- 💬 **Discussions**: [GitHub Discussions](https://github.com/openpharma-org/sec-mcp/discussions)
 - 🏛️ **SEC EDGAR**: [Official SEC Resources](https://www.sec.gov/edgar)
 - 📊 **XBRL Resources**: [XBRL.org](https://www.xbrl.org/)
 
