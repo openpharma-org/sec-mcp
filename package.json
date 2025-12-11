@@ -1,0 +1,51 @@
+{
+  "name": "@openpharma-org/sec-mcp-server",
+  "version": "0.0.1",
+  "description": "MCP server for SEC EDGAR (Electronic Data Gathering, Analysis, and Retrieval) system data access. Provides search and retrieval of company filings, financial statements, and XBRL data from the U.S. Securities and Exchange Commission using the official EDGAR API.",
+  "main": "src/index.js",
+  "bin": {
+    "sec-mcp-server": "src/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "build": "mkdir -p dist && cp -r src/* dist/",
+    "prebuild": "rm -rf dist"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "sec",
+    "edgar",
+    "securities-exchange-commission",
+    "financial-data",
+    "company-filings",
+    "xbrl",
+    "financial-statements",
+    "10-k",
+    "10-q",
+    "8-k",
+    "cik",
+    "model-context-protocol"
+  ],
+  "author": "Joan <uh-joan>",
+  "license": "MIT",
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openpharma-org/sec-mcp-server.git"
+  },
+  "homepage": "https://github.com/openpharma-org/sec-mcp-server",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.15.0",
+    "axios": "^1.10.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE"
+  ]
+}
