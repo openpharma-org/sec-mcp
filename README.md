@@ -13,6 +13,21 @@ A Model Context Protocol (MCP) server that provides comprehensive access to the 
 - ⚡ **Real-time Data**: Direct access to SEC's live EDGAR database
 - 🔌 **MCP Compatible**: Works seamlessly with Cursor, Claude Desktop, and other MCP clients
 
+## 🌍 European Filings - Sister Project
+
+Looking for **European company financial data**? Check out our companion server:
+
+**[EU Filings MCP Server](https://github.com/openpharma-org/eu-filings-mcp-server)** - Access financial filings from 27+ EU countries via ESEF (European Single Electronic Format)
+
+**Key Features**:
+- 🌍 Pan-European coverage (France, Germany, Italy, Spain, Netherlands, UK, Denmark, Switzerland, and more)
+- 📊 IFRS XBRL data extraction with dimensional analysis
+- 🔍 Company search by name or LEI (Legal Entity Identifier)
+- 📈 Advanced features: fact tables, time-series analysis, dimensional facts
+- 23,000+ filings accessible via filings.xbrl.org free API
+
+**98% feature parity** with this SEC server, optimized for European regulatory frameworks.
+
 ## 🎯 Dimensional XBRL Capabilities
 
 ### Revolutionary Fact Table Generation
